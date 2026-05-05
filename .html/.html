@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Objetivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda de Objetivos</h1>
+
+        <div class="controls">
+            <label for="day-select">Escolha um dia:</label>
+            <input type="date" id="day-select">
+
+            <label for="goal-input">Objetivo:</label>
+            <input type="text" id="goal-input" placeholder="Digite seu objetivo">
+            <button id="add-goal">Adicionar Objetivo</button>
+        </div>
+
+        <div class="goals-list">
+            <h2>Seus Objetivos</h2>
+            <ul id="goals-ul"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
